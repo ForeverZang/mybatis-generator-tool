@@ -3,7 +3,6 @@ MyBatis代码自动生成工具，可以jar包形式集成到项目中，一键�
 
 ######版本简介
 >依赖
-
 >>1.mysql-connector-java-5.1.14-bin.jar<br>
 >>2.mybatis-generator-core-1.3.2.jar<br>
 
@@ -41,12 +40,14 @@ MyBatis代码自动生成工具，可以jar包形式集成到项目中，一键�
 
 
 #####2.生成数据层dao，service，daoEx使用说明
-		// 代码演示
-		public static void main(String[] args) {
-				String path = TestMain.class.getResource("/").getPath();
-				System.out.println("=======path:" + path);
-				// 生成dao
-				GenerateTool.generateDao("generator.properties", path);
-				// 生成daoEx
-				GenerateTool.generateDaoEx("generator.properties", path);
-		}
+```java
+// 调用代码示例
+public static void main(String[] args) {
+	String path = TestMain.class.getResource("/").getPath();
+	System.out.println("=======path:" + path);
+	// 生成dao
+	GenerateTool.generateDao("generator.properties", path);
+	// 生成daoEx
+	GenerateTool.generateDaoEx("generator.properties", path);
+}
+```
