@@ -9,7 +9,7 @@ MyBatis代码自动生成工具，可以jar包形式集成到项目中，一键�
 >时间 2018/06/03<br>
 >版本 1.3.2<br>
 
-#####1.生成数据层dao，service，daoEx配置参数
+#####1.生成数据层dao，service，daoEx配置参数（generator.properties文件配置内容）
 
 #######目标路径配置(例：src/main/java)
 	genarate.sourceRoot=src/main/java
@@ -51,3 +51,7 @@ public static void main(String[] args) {
 	GenerateTool.generateDaoEx("generator.properties", path);
 }
 ```
+#####3.打包集成使用说明
+>1.cd 到build.bat脚本的磁盘目录，并双击执行
+>2.成功后，cd 到target目录下，即可得到mybatis-generator-tool-1.3.2.jar
+>3.集成到项目中,使用示例代码即可生成所需代码
