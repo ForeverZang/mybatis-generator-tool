@@ -52,6 +52,6 @@ public static void main(String[] args) {
 }
 ```
 #####3.打包集成使用说明
->1.cd 到build.bat脚本的磁盘目录，并双击执行
->2.成功后，cd 到target目录下，即可得到mybatis-generator-tool-1.3.2.jar
->3.集成到项目中,使用示例代码即可生成所需代码
+>1.cd 到build.bat脚本的磁盘目录，并双击执行<br>
+>2.成功后，cd 到target目录下，即可得到mybatis-generator-tool-1.3.2.jar<br>
+>3.集成到项目中,使用示例代码即可生成所需代码<br>
